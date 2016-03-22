@@ -1,0 +1,8 @@
+#Restart apache
+service apache2 restart
+
+#Enable headers
+a2enmod headers
+
+#Enable rewrite
+a2enmod rewrite
